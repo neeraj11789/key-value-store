@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /** The type Data type store service. */
 public class DataTypeStoreServiceImpl implements DataTypeStoreService {
 
-	private Map<String, DataType> dataStoreMap = new ConcurrentHashMap<>();
+	private static final Map<String, DataType> dataStoreMap = new ConcurrentHashMap<>();
 
 	@Override
 	public void save(Request request) {

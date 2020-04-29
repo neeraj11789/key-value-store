@@ -8,5 +8,5 @@ public class Constants {
 	/**
 	 * The constant INVALID_DATATYPE.
 	 */
-public static final String INVALID_DATATYPE = "Invalid Data Type";
+	public static final String INVALID_DATATYPE = "Invalid Data Type";
 }

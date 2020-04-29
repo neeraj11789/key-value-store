@@ -48,6 +48,4 @@ class MemoryCacheServiceImplTest {
 			Assertions.assertThat(e).hasMessage(Constants.INVALID_DATATYPE);
 		}
 	}
-
-
 }
